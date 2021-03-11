@@ -1,24 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Pricing from './components/Pricing'
+import Info from './components/Info'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          wellcome back
-        </a>
-      </header>
-    </div>
+  <div style={{display: 'flex', fontSize: '14px', heigth: '100vh'}}>
+    <Pricing />
+    <Info />
+  </div>
   );
 }
 
