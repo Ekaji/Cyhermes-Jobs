@@ -1,3 +1,5 @@
+import '../styles/range.styles.css'
+
 function Package() {
    
     return (

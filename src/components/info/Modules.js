@@ -4,7 +4,7 @@ function Modules() {
     return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gridGap: '1rem', margin: '0px 20px', width: '100%',  }}>
      {modules.map(module => (
-        <article>{module}</article>
+        <article styles={{width: '20px'}}>{module}</article>
         )
     )
 }
